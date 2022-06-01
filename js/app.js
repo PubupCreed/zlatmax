@@ -6730,7 +6730,7 @@
         }),
       document.querySelector(".products-slider") &&
         new gn(".products__slider__slider", {
-          modules: [bn, wn, En],
+          modules: [bn, wn, xn, En],
           autoplay: { delay: 3e3, disableOnInteraction: !1 },
           observer: !0,
           watchOverflow: !0,

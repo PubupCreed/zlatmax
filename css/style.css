@@ -1363,6 +1363,10 @@ body.popup-show::after {
   }
 }
 
+.sub-menu-catalog {
+  z-index: 7;
+  position: absolute;
+}
 @media (max-width: 61.99875em) {
   .sub-menu-catalog {
     position: fixed;
@@ -1924,12 +1928,12 @@ body.popup-show::after {
 }
 @media (min-width: 20em) and (max-width: 101.25em) {
   .main-block {
-    padding-bottom: clamp( 2.5rem , 2.1923076923rem  +  1.5384615385vw , 3.75rem );
+    padding-bottom: clamp( 3.75rem , 3.75rem  +  0vw , 3.75rem );
   }
 }
 @media (max-width: 20em) {
   .main-block {
-    padding-bottom: 2.5rem;
+    padding-bottom: 3.75rem;
   }
 }
 .main-block__body {
@@ -1975,6 +1979,7 @@ body.popup-show::after {
   grid-auto-flow: column;
   gap: 0.9375rem;
   transform: translate(0, 10%);
+  overflow: hidden;
 }
 .controll-main-block__dotts .swiper-pagination-bullet {
   position: relative;
